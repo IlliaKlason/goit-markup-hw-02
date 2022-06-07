@@ -1,0 +1,182 @@
+/* Основной цвет фона #FFFFFF; */
+/* Вторичный цвет фона #2F303A; */
+/* Фоновый цвет секции наша команда #F5F4FA; */
+
+/* Цвет основного текста #212121; */
+/* Цвет вторичного текста #757575; */
+/* Цвет акцента #2196F3; */
+/* Цвет текста заголовка #FFFFFF */
+/* Цвет логотипа #000000; */
+/* Цвет ссылок в подвале rgba(255, 255, 255, 0.6); */
+
+/* Интервал между буквами  0.03em;*/
+
+:root {
+  --primary-bg-color: #ffffff;
+  --secondary-bg-color: #2f303a;
+  --team-bg-color: #f5f4fa;
+
+  --main-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent-color: #2196f3;
+  --headline-text-color: #ffffff;
+  --logo-color: #000000;
+  --footer-link-text-color: rgba(255, 255, 255, 0.6);
+
+  --letter-spacing: 0.03em;
+}
+
+/* Основннее стили */
+body {
+  background-color: var(--primary-bg-color);
+  color: var(--main-text-color);
+  font-family: "Roboto", sans-serif;
+  letter-spacing: var(--letter-spacing);
+}
+.link {
+  list-style: none;
+  text-decoration: none;
+}
+.hidden {
+  visibility: hidden;
+}
+/* Основннее стили */
+
+/* Стили Шапки */
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--logo-color);
+}
+.logo-accent {
+  color: var(--accent-color);
+}
+.nav-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  color: var(--main-text-color);
+}
+.contact {
+  color: var(--secondary-text-color);
+}
+.current {
+  color: var(--accent-color);
+}
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--accent-color);
+}
+/* Стили Шапки */
+
+/* Стили основной секции  */
+.hero {
+  background-color: var(--secondary-bg-color);
+  color: var(--headline-text-color);
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.button {
+  background: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  color: var(--headline-text-color);
+  cursor: pointer;
+}
+.title {
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+.title-item {
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+}
+.text-item {
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--secondary-text-color);
+}
+.team {
+  background-color: var(--team-bg-color);
+}
+.team-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+.team-text {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  color: var(--secondary-text-color);
+}
+/* Стили основной секции  */
+
+/* Стили подвала */
+.footer {
+  background-color: var(--secondary-bg-color);
+}
+.logo-footer {
+  color: var(--headline-text-color);
+}
+.footer-link {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--footer-link-text-color);
+}
+.footer-link:hover,
+.footer-link:focus {
+  color: var(--accent-color);
+}
+.footer-link-item {
+  color: var(--primary-bg-color);
+}
+/* Стили подвала */
+
+/* Стили кнопок портфолио */
+
+.portfolio-button-list {
+  text-align: center;
+}
+.portfolio-button {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--team-bg-color);
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: var(--letter-spacing);
+  cursor: pointer;
+}
+.portfolio-button:hover,
+.portfolio-button:focus {
+  background-color: var(--accent-color);
+  color: var(--primary-bg-color);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.portfolio-title {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.portfolio-text {
+  font-weight: 400;
+  line-height: 1.88;
+  color: var(--secondary-text-color);
+}
