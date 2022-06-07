@@ -38,7 +38,7 @@ body {
   text-decoration: none;
 }
 .hidden {
-  visibility: hidden;
+  display: none;
 }
 /* Основннее стили */
 
