@@ -103,7 +103,7 @@ body {
 }
 .title-item {
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   text-transform: uppercase;
 }
 .text-item {
