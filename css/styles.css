@@ -85,6 +85,7 @@ body {
   text-transform: uppercase;
 }
 .button {
+  font-family: inherit;
   background: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -155,7 +156,7 @@ body {
   text-align: center;
 }
 .portfolio-button {
-  font-family: "Roboto", sans-serif;
+  font-family: inherit;
   background-color: var(--team-bg-color);
   border-radius: 4px;
   font-weight: 500;
